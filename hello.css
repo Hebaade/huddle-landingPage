@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("bg-desktop.svg");
+}
+.nav{
+    margin-top: 30px;
+    font-weight: 600;
+    margin-left: 110px;
+    font-family: sans-serif;
+}
+.title{
+    font-size: 26px;
+}
+.body{
+    width: 80%;
+    display: flex;
+    margin-left: 25px;
+    margin: 70px auto;
+}
+.ill{
+    width: 650px;
+    height: 450px;
+}
+.build{
+    font-size: 32px;
+    margin-top: 90px;
+  margin-bottom: 30px;
+    font-weight: 900;
+    margin-left: 35px;
+    text-justify: left;
+}
+.hud{
+    font-size: 24px;
+    margin: 15px;
+    margin-left: 35px;
+}
+.btn
+{
+     margin-left:35px;
+     padding: 10px;
+     width: 35%;
+     color: hsl(300, 69%, 71%);
+     border: none;
+     margin-top: 15px;
+     border-radius: 15px;
+     -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+     -ms-border-radius: 15px;
+     -o-border-radius: 15px;
+}
+.icons{
+display: flex;
+ font-size: larger;
+ justify-content: flex-end;
+margin-right: 65px;
+margin-top:-75px;
+}
+i{
+    padding: 6px;
+    opacity: 0.7;
+    margin-right: 5px;
+     border: 1px   solid #fff;
+     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+@media  (max-width:375px) {
+    body{
+        background-image: url("bg-mobile.svg") !important;
+    background-repeat: no-repeat;
+     background-size: 90%;
+    }
+    .nav{
+        margin-left: 15px;
+    }
+    .body{
+        display: block;
+        margin: 25px auto;
+    }
+    .build , .hud,.btn{
+        margin-left: 2px;
+    }
+    .info{
+        margin-top: 25px;
+        margin-left: 0;
+        width: 250px;
+    }
+    .ill{
+        width: 250px;
+        height: 250px;
+    }
+    .btn{
+        width: 50%;
+        margin-left: 15%;
+    }
+    .icons{
+        display: block;
+        margin-top: 45px;
+        margin-left: 22%;
+       margin-bottom: 10px;
+    }
+}
